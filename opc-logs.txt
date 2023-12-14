@@ -1,0 +1,24 @@
+https://edgelive.thermaxglobal.com/exactapi is base url
+https://edgelive.thermaxglobal.com/opc-network
+Authenticated
+XXR_ is prefix
+3 tags found
+60000 is subscribe interval
+OPCconnect configuration file created successfully
+---------cannot connect to endpoint------------: opc.tcp://DESKTOP-GUOD63R:53530/OPCUA/SimulationServer
+failure in ua callback Error: Fail to connect to server at opc.tcp://DESKTOP-GUOD63R:53530/OPCUA/SimulationServer to collect certificate server (in findEndpoint) 
+ (err =The connection cannot be established with server opc.tcp://DESKTOP-GUOD63R:53530/OPCUA/SimulationServer .
+Please check that the server is up and running or your network configuration.
+Err = (connect ECONNREFUSED fe80::ecf:1e9b:3373:8a8b:53530))
+    at C:\OPCConnect\resources\app\node_modules\node-opcua-client\dist\private\client_base_impl.js:675:27
+    at C:\OPCConnect\resources\app\node_modules\node-opcua-client\dist\private\client_base_impl.js:497:17
+    at C:\OPCConnect\resources\app\node_modules\async\dist\async.js:2955:19
+    at wrapper (C:\OPCConnect\resources\app\node_modules\async\dist\async.js:268:20)
+    at iterateeCallback (C:\OPCConnect\resources\app\node_modules\async\dist\async.js:413:21)
+    at C:\OPCConnect\resources\app\node_modules\async\dist\async.js:321:20
+    at C:\OPCConnect\resources\app\node_modules\async\dist\async.js:2953:17
+    at C:\OPCConnect\resources\app\node_modules\node-opcua-client\dist\private\client_base_impl.js:468:21
+    at C:\OPCConnect\resources\app\node_modules\node-opcua-secure-channel\dist\source\client\client_secure_channel_layer.js:276:24
+    at on_connect (C:\OPCConnect\resources\app\node_modules\node-opcua-secure-channel\dist\source\client\client_secure_channel_layer.js:790:13)
+Data of bua saved to the cloud successfully at 2023-12-14T05:17:48.600Z with status code 204
+Data of bua2 saved to the cloud successfully at 2023-12-14T05:17:51.927Z with status code 204
